@@ -1,0 +1,173 @@
+body{
+    /*background-color: skyblue;
+    background-image:url(backgroundBlue.jpg);*/
+}
+.main{
+    box-sizing: border-box;
+    width: 80vw;
+    height: 100%;
+    background-color: white;
+    margin: auto;
+}
+.main img{
+    width: 50%;
+    margin: auto;
+    height: 300px;
+    display: block;
+    padding: 0px 20%;
+    background-color: rgba(143, 239, 153, 0.2);
+    /*background-image: url(CalcBack.jpg);*/
+    background-color: black;
+    border: 0.1px solid black;
+    border-radius: 5px;
+}
+.main .p1{
+    margin:30px 5%;
+    font-size: 20px;
+    color: black;
+}
+aside{
+    width: 32%;
+    /*margin: 0px auto;*/
+    justify-content: space-between;
+}
+/*.aside2 h1{
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+.aside1 h1{
+    border-left: 1px solid white;
+
+}
+.aside3 h1{
+
+    border-right: 1px solid white;
+}*/
+.aside1 p, .aside2 p, .aside3 p, aside ul li, .aside1 h1, .aside2 h1, .aside3 h1 {
+    font-size: 20px;
+    width: 100%;
+    /*text-align: center;*/
+    /*margin-left: 9%;
+    margin-right: 9%;*/
+    padding: 0px;
+    /*margin: auto;*/
+}
+.img{
+    width: 100%;
+    height: 200px;
+    /*margin-left: 9%;
+    margin-right: 9%;*/
+    padding: 0px;
+    margin: auto;
+    border: 1px solid black;
+}
+aside h3{
+    color: gray;
+}
+.sticky{
+    position: sticky;
+    top: 71px;
+    background-color: #1e4fa4;
+    text-align: center;
+    width: 80%;
+    color: white;
+    /*margin-left: 9%;
+    margin-right: 9%;*/
+    line-height: 40px;
+    /*border-radius: 50px;*/
+    border-radius: 5px;
+    font-weight: 100;
+}
+.sticky2{
+    position: sticky;
+    top: 72px;
+    text-align: center;
+    width: 90%;
+    line-height: 40px;
+    margin:0px auto 50px auto;
+    font-size: 25px;
+    background-color: #1e4fa4;
+    color: white;
+    font-weight: 100;
+    border-radius: 5px;
+}
+.contAside{
+    box-sizing: border-box;
+    width: 100%;
+    margin: auto;
+    height: 1200px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.ContMainAside{
+    width: 90%;
+    height: 100%;
+    background-color: white;
+    margin: auto;
+}
+.divDiv{
+    box-sizing: border-box;
+    width: 81.7%;
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    height: 200px;
+    width: 100%;
+    background-color: gainsboro;
+    position: absolute;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sticky3{
+    position: fixed;
+    top: 70px;
+    left: 0;
+    margin-top: 70px;
+    height: 50px;
+    background-color: #1e4fa4;
+    text-align: center;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    font-weight: 100;
+    width: 100%;
+}
+footer div{
+    width: 30%;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+}
+footer div h3{
+    color: #1e4fa4;
+    font-weight: 100;
+}
+footer div h4{
+    color: black;
+    font-weight: 100;
+}
+footer .logo{
+    background-color: gainsboro;
+    /*border: 3px solid darkblue;
+    border-radius: 100px;*/
+    padding: 0px 10px;
+    width: 250px;
+}
+footer .logo span{
+    font-weight: 900;
+    color: #1e4fa4;
+}
+footer .div2 h1{
+    margin: 20px auto;
+}
+footer .div1 a{
+    color: black;
+    font-size: 20px;
+    width: 100%;
+}

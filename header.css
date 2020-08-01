@@ -1,0 +1,128 @@
+header{
+    background-color: white;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top:0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    z-index: 100;
+}
+header .innerHeader{
+    height: 100%;
+    width: 72vw;
+    display: flex;
+    align-items: center;
+    background-color:  white;
+    margin: auto;
+}
+header .logo{
+    background-color: white;
+    font-size: 35px;
+    margin: auto 0px;
+    /*border: 3px solid darkblue;
+    border-radius: 100px;
+    padding: 0px 10px;*/
+    font-weight: 100;
+
+}
+header .nav{
+    margin-left: auto;
+    height: 70px;
+}
+header .nav ul{
+    margin: 0px;
+}
+header ul .lista1{
+    display: inline-block;
+    list-style: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+header .innerHeader ul button{
+    background-color: white;
+    height: 40px;
+    border:none;
+    border-radius 20px;
+    color: black;;
+    font-size: 16px;
+}
+header .innerHeader ul button:hover{
+    cursor: pointer;
+}
+.dropdown-content{
+    width: 150px;
+    position: absolute;
+    margin-top: 15px;
+    display: none;
+}
+.dropdownInicio:hover .botonInicio{
+    border-top: 4px solid #1e4fa4;
+}
+.dropdownAcerca:hover .botonAcerca{
+    border-top: 4px solid #1e4fa4;
+}
+.dropdownContacto:hover .botonContacto{
+    border-top: 4px solid #1e4fa4;
+}
+.dropdownInicio:hover .dropdown-content{
+    display: block;
+}
+.dropdownAcerca:hover .dropdown-content{
+    display: block;
+}
+.dropdownContacto:hover .dropdown-content{
+    display: block;
+}
+.dropdown-content ul .lista2{
+    width: 100%;
+    list-style: none;
+    display: block;
+    padding: 10px 0px;
+    margin: 0px;
+    border: 2px solid black;
+    background-color:white;
+    margin-bottom: 1px;
+}
+.dropdown-content ul .lista2 a{
+    text-decoration: none;
+    color: black;
+}
+.dropdown-content ul .lista2:hover{
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+.dropdown-content ul{
+    position: relative;
+    padding: 0px;
+    text-align: center;
+}
+.dropdownInicio, .dropdownAcerca, .dropdownContacto{
+    padding: 15px 0px;
+    margin: 0 10px;
+}
+.innerHeader .calculadora{
+    border-radius: 50px;
+    background-color: #1e4fa4;
+    border: none;
+    height: 40px;
+    width: 100px;
+    color: white;;
+    font-size: 15px;
+    margin-left: 20px;
+}
+.innerHeader .calculadora:hover{
+    cursor: pointer;
+    background-color: deepskyblue;
+    color: white;
+}
+.innerHeader .logo span{
+    font-weight: 900;
+    color: #1e4fa4;
+}
+.innerHeader .logo a{
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+}
