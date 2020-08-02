@@ -184,39 +184,51 @@ aside h3{
 @media (max-width: 550px){
     .contAside{
         width: 100%;
-        height: 2600px;
+        height: 2300px;
     }
     .ContMainAside{
         width: 100%;
+    }
+    .main{
+        width: 100%;
+    }
+    .aside1{
+        width: 90%;
+    }
+    .aside2{
+        width: 90%;
+    }
+    .aside3{
+        width: 90%;
     }
 }
 
 @media (max-width: 450px){
     .contAside{
-        height: 2700px;
+        height: 2500px;
     }
 }
 
 @media (max-width: 400px){
     .contAside{
-        height: 2800px;
+        height: 2600px;
     }
 }
 
 @media (max-width: 370px){
     .contAside{
-        height: 2900px;
+        height: 2700px;
     }
 }
 
 @media (max-width: 345px){
     .contAside{
-        height: 3000px;
+        height: 2800px;
     }
 }
 
 @media (max-width: 325px){
     .contAside{
-        height: 3200px;
+        height: 2900px;
     }
 }
