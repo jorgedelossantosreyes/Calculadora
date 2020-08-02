@@ -25,7 +25,6 @@ header .logo{
     border-radius: 100px;
     padding: 0px 10px;*/
     font-weight: 100;
-
 }
 header .nav{
     margin-left: auto;
@@ -125,4 +124,43 @@ header .innerHeader ul button:hover{
     text-decoration: none;
     color: black;
     font-size: 35px;
+}
+#checkbox{
+    display: none;
+}
+.icon-menu{
+    display: none;
+}
+
+@media (max-width: 981px){
+    header .nav{
+        display: none;
+    }
+    .innerHeader{
+        justify-content: flex-end;
+    }
+    .innerHeader .calculadora{
+        margin-left: auto;
+    }
+    #checkbox{
+        display: none;
+    }
+    .icon-menu{
+        display: inline;
+        font-size: 40px; 
+    }
+}
+
+@media (max-width: 640px){
+    .innerHeader .calculadora{
+        display: none;
+    }
+    header .innerHeader{
+        height: 100%;
+        width: 100vw;
+        justify-content: flex-end;
+    }
+    .icon-menu{
+        margin-left: auto;
+    }
 }

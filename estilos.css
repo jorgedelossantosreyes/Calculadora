@@ -110,18 +110,7 @@ aside h3{
     box-sizing: border-box;
     width: 81.7%;
     display: flex;
-    display: flex;
     justify-content: space-between;
-}
-footer{
-    height: 200px;
-    width: 100%;
-    background-color: gainsboro;
-    position: absolute;
-    left: 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .sticky3{
     position: fixed;
@@ -138,36 +127,96 @@ footer{
     font-weight: 100;
     width: 100%;
 }
-footer div{
-    width: 30%;
-    height: 100px;
-    margin: auto;
-    text-align: center;
+
+
+
+
+
+
+@media (max-width: 980px){
+    .contAside{
+        display: block;
+    }
+    .divDiv{
+        box-sizing: border-box;
+        width: 100%;
+        display: block;
+    }
+    .aside1{
+        width: 80%;
+        margin: auto;
+    }
+    .aside2{
+        width: 80%;
+        margin: auto;
+    }
+    .aside3{
+        width: 80%;
+        margin: auto;
+    }
+    .img{
+        height: 300px;
+    }
+    .contAside{
+        height: 2300px;
+    }
 }
-footer div h3{
-    color: #1e4fa4;
-    font-weight: 100;
+
+
+
+@media (max-width: 750px){
+    .contAside{
+        height: 2200px;
+    }
+    .main img{
+        height: 200px;
+    }
+    .img{
+        height: 200px;
+    }
 }
-footer div h4{
-    color: black;
-    font-weight: 100;
+@media (max-width: 605px){
+    .contAside{
+        height: 2400px;
+    }
 }
-footer .logo{
-    background-color: gainsboro;
-    /*border: 3px solid darkblue;
-    border-radius: 100px;*/
-    padding: 0px 10px;
-    width: 250px;
+
+@media (max-width: 550px){
+    .contAside{
+        width: 100%;
+        height: 2600px;
+    }
+    .ContMainAside{
+        width: 100%;
+    }
 }
-footer .logo span{
-    font-weight: 900;
-    color: #1e4fa4;
+
+@media (max-width: 450px){
+    .contAside{
+        height: 2700px;
+    }
 }
-footer .div2 h1{
-    margin: 20px auto;
+
+@media (max-width: 400px){
+    .contAside{
+        height: 2800px;
+    }
 }
-footer .div1 a{
-    color: black;
-    font-size: 20px;
-    width: 100%;
+
+@media (max-width: 370px){
+    .contAside{
+        height: 2900px;
+    }
+}
+
+@media (max-width: 345px){
+    .contAside{
+        height: 3000px;
+    }
+}
+
+@media (max-width: 325px){
+    .contAside{
+        height: 3200px;
+    }
 }
