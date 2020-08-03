@@ -47,12 +47,7 @@ header .innerHeader ul button{
 header .innerHeader ul button:hover{
     cursor: pointer;
 }
-.dropdown-content{
-    width: 150px;
-    position: absolute;
-    margin-top: 15px;
-    display: none;
-}
+
 .innerHeader .calculadora{
     border-radius: 50px;
     background-color: #1e4fa4;
@@ -137,7 +132,6 @@ header .innerHeader ul button:hover{
 @media (max-width: 640px){
     .innerHeader .calculadora{
         display: block;
-        position: absolute;
         transform: translate(0px, 216px);
         border-radius: 0px;
         width: 150px;
