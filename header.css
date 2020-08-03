@@ -157,7 +157,7 @@ header .innerHeader ul button:hover{
     .icon-menu{
         margin-left: auto;
     }
-    .logo{
+    header .logo{
         position: absolute;
         left: 0;
     }
