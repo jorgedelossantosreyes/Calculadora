@@ -30,6 +30,9 @@ header .nav{
     margin-left: auto;
     height: 70px;
 }
+.lista1 .botonInicio{
+    margin: 15px;
+}
 header .nav ul{
     margin: 0px;
 }
@@ -55,51 +58,6 @@ header .innerHeader ul button:hover{
     position: absolute;
     margin-top: 15px;
     display: none;
-}
-.dropdownInicio:hover .botonInicio{
-    border-top: 4px solid #1e4fa4;
-}
-.dropdownAcerca:hover .botonAcerca{
-    border-top: 4px solid #1e4fa4;
-}
-.dropdownContacto:hover .botonContacto{
-    border-top: 4px solid #1e4fa4;
-}
-.dropdownInicio:hover .dropdown-content{
-    display: block;
-}
-.dropdownAcerca:hover .dropdown-content{
-    display: block;
-}
-.dropdownContacto:hover .dropdown-content{
-    display: block;
-}
-.dropdown-content ul .lista2{
-    width: 100%;
-    list-style: none;
-    display: block;
-    padding: 10px 0px;
-    margin: 0px;
-    border: 2px solid black;
-    background-color:white;
-    margin-bottom: 1px;
-}
-.dropdown-content ul .lista2 a{
-    text-decoration: none;
-    color: black;
-}
-.dropdown-content ul .lista2:hover{
-    background-color: deepskyblue;
-    cursor: pointer;
-}
-.dropdown-content ul{
-    position: relative;
-    padding: 0px;
-    text-align: center;
-}
-.dropdownInicio, .dropdownAcerca, .dropdownContacto{
-    padding: 15px 0px;
-    margin: 0 10px;
 }
 .innerHeader .calculadora{
     border-radius: 50px;
@@ -132,28 +90,64 @@ header .innerHeader ul button:hover{
     display: none;
 }
 
+
+
 @media (max-width: 981px){
     header .nav{
-        display: none;
+        position: absolute;
+        transform: translate(-250px, 70px);
+        width: 0px;
+        margin: auto;
+    }
+    header .nav ul{
+        width: 150px;
+        margin: auto;
+    }
+    header .nav ul li{
+        background-color: ghostwhite;
+        border: 1px solid black;
+        display: block;
+        border-bottom: 1px solid black;
+        margin: auto;
+        height: 50px;
+        text-align: center;
+    }
+    header .nav ul li button{
+        background-color: ghostwhite;
+        margin: auto;
+        color: black;
+        height: 20px;
     }
     .innerHeader{
         justify-content: flex-end;
     }
     .innerHeader .calculadora{
         margin-left: auto;
+        margin-right: 60px;
     }
-    #checkbox{
-        display: none;
+    #checkbox:checked ~.nav{
+        display:  none;
     }
     .icon-menu{
         display: inline;
         font-size: 40px; 
+        position: absolute;
+    }
+    .lista1 .botonInicio, .lista1 .botonAcerca, .lista1 .botonContacto{
+        margin: 15px;
     }
 }
 
+
+
 @media (max-width: 640px){
     .innerHeader .calculadora{
-        display: none;
+        display: block;
+        position: absolute;
+        transform: translate(0px, 216px);
+        border-radius: 0px;
+        width: 150px;
+        height: 50px;
     }
     header .innerHeader{
         height: 100%;
@@ -162,5 +156,12 @@ header .innerHeader ul button:hover{
     }
     .icon-menu{
         margin-left: auto;
+    }
+    .logo{
+        position: absolute;
+        left: 0;
+    }
+    #checkbox:checked ~.calculadora{
+        display:  none;
     }
 }
