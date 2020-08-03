@@ -29,6 +29,7 @@ header .logo{
 header .nav{
     margin-left: auto;
     height: 70px;
+    z-index: 200;
 }
 header ul .lista1{
     display: inline-block;
