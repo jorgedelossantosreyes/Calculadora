@@ -30,12 +30,6 @@ header .nav{
     margin-left: auto;
     height: 70px;
 }
-.lista1 .botonInicio{
-    margin: 15px;
-}
-header .nav ul{
-    margin: 0px;
-}
 header ul .lista1{
     display: inline-block;
     list-style: none;
@@ -163,5 +157,8 @@ header .innerHeader ul button:hover{
     }
     #checkbox:checked ~.calculadora{
         display:  none;
+    }
+    .lista1 .botonInicio, .lista1 .botonAcerca, .lista1 .botonContacto{
+        margin: 15px;
     }
 }
