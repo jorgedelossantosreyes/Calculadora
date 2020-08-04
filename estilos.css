@@ -10,16 +10,15 @@ body{
     margin: auto;
 }
 .main img{
-    width: 50%;
+    width: 90%;
     margin: auto;
     height: 300px;
     display: block;
-    padding: 0px 20%;
+    /*padding: 0px 20%;*/
     background-color: rgba(143, 239, 153, 0.2);
     /*background-image: url(CalcBack.jpg);*/
     background-color: black;
     border: 0.1px solid black;
-    border-radius: 5px;
 }
 .main .p1{
     margin:30px 5%;
