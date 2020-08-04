@@ -53,6 +53,9 @@ aside{
     /*margin: auto;*/
     text-align: justify;
 }
+.aside1 h1, .aside2 h1, .aside3 h1{
+    text-align: center;
+}
 .img{
     width: 100%;
     height: 200px;
