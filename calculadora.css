@@ -171,7 +171,7 @@ main #divTable{
 }
 
 
-@media (max-width: 450px){
+/*@media (max-width: 450px){
     .formDescuentos{
         width: 90%;
         margin-top: 50px;
@@ -182,4 +182,4 @@ main #divTable{
         margin-top: 60px;
         margin: auto;
     }
-}
+}*/
