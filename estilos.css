@@ -136,6 +136,13 @@ aside h3{
     .contAside{
         display: block;
     }
+    .main{
+        box-sizing: border-box;
+        width: 90%;
+        height: 100%;
+        background-color: white;
+        margin: auto;
+    }
     .divDiv{
         box-sizing: border-box;
         width: 100%;
@@ -174,6 +181,29 @@ aside h3{
         height: 200px;
     }
 }
+
+@media (max-width: 640px){
+    .contAside{
+        width: 100%;
+    }
+    .ContMainAside{
+        width: 100%;
+    }
+    .main{
+        width: 100%;
+    }
+    .aside1{
+        width: 90%;
+    }
+    .aside2{
+        width: 90%;
+    }
+    .aside3{
+        width: 90%;
+    }
+}
+}
+
 @media (max-width: 605px){
     .contAside{
         height: 2400px;
