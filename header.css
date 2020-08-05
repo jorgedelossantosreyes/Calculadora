@@ -85,7 +85,7 @@ header .innerHeader ul button:hover{
 @media (max-width: 981px){
     header .nav{
         position: absolute;
-        transform: translate(-250px, 70px);
+        transform: translate(-197px, 70px);
         width: 0px;
         margin: auto;
     }
@@ -97,7 +97,6 @@ header .innerHeader ul button:hover{
         background-color: ghostwhite;
         border: 1px solid black;
         display: block;
-        border-bottom: 1px solid black;
         margin: auto;
         height: 50px;
         text-align: center;
@@ -139,7 +138,7 @@ header .innerHeader ul button:hover{
 @media (max-width: 640px){
     .innerHeader .calculadora{
         display: block;
-        transform: translate(0px, 216px);
+        transform: translate(53px, 216px);
         border-radius: 0px;
         width: 150px;
         height: 50px;
