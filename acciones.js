@@ -1,11 +1,11 @@
-/*document.getElementById("checkbox").onclick = function(){
-    document.querySelector("#divHeader label").classList.add("icon-cancel-circled");
-    document.querySelector("#divHeader label").classList.remove("icon-menu");
+document.getElementById("checkbox").onclick = function(){
+    document.querySelector("#label1").classList.add("icon-cancel-circled");
+    document.querySelector("#label1").classList.remove("icon-menu");
     if((document.getElementById("checkbox")).checked ===true){
-        document.querySelector("#divHeader label").classList.add("icon-menu");
-        document.querySelector("#divHeader label").classList.remove("icon-cancel-circled");
+        document.querySelector("#label1").classList.add("icon-menu");
+        document.querySelector("#label1").classList.remove("icon-cancel-circled");
     }
-}*/
+}
     
 //logica checked de radioIngresoExtra
 if(document.getElementById("radioIngresoExtraNo").checked === true){
