@@ -123,6 +123,12 @@ header .innerHeader ul button:hover{
         font-size: 40px; 
         position: absolute;
     }
+    .icon-cancel-circled{
+        display: inline;
+        font-size: 40px; 
+        position: absolute;
+        color: red;
+    }
     .lista1 .botonInicio, .lista1 .botonAcerca, .lista1 .botonContacto{
         margin: 15px;
     }
